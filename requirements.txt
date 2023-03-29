@@ -1,0 +1,65 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+
+torch==1.10.0+cu113
+torchvision==0.11.0+cu113
+numpy==1.23.3
+torchviz
+
+tensorboard
+torch_tb_profiler
+wandb
+requests>=2.24.0
+
+dm_control
+
+imageio
+imageio-ffmpeg
+moviepy
+opencv-python>=3
+
+# Safety-Gym
+gym[mujoco]>=0.18.3,<=0.21.0
+joblib
+mujoco_py==1.50.1.68
+xmltodict
+
+h5py
+
+matplotlib
+
+addict
+yapf
+sorcery
+
+pynvml
+pynput
+
+# ConvexOpt Envs
+cvxpy
+
+# mani_skill2
+sapien==2.2.1
+pyyaml
+# utilties
+tabulate
+gdown>=4.6.0
+# vision
+transforms3d
+trimesh
+rtree
+
+# GLIP
+einops
+shapely
+timm
+yacs
+tensorboardX
+ftfy
+prettytable
+pymongo
+transformers
+inflect
+nltk
+scipy
+scikit-learn
+pycocotools
